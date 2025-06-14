@@ -27,3 +27,24 @@ A clean and minimal web-based **Random Quote Generator** that fetches inspiratio
    ```bash
    git clone https://github.com/yourusername/random-quote-generator.git
 
+2. Navigate to the project folder:
+cd random-quote-generator
+
+3. Open index.html in your browser, or use a live server extension in VS Code.
+
+🔗 Live Demo
+Click here to view the live demo
+
+📁 Project Structure
+random-quote-generator/
+│
+├── index.html        # HTML structure
+├── style.css         # CSS styling
+└── script.js         # JavaScript logic (API call, animations)
+
+🙋‍♂️ Author
+Shraddha Bagade
+@shraddha68
+
+📄 License
+This project is licensed under the MIT License – feel free to use and modify it.
