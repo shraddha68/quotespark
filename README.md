@@ -1,7 +1,7 @@
 # random-quote-generator
 # 🌟 Random Quote Generator
 
-A clean and minimal web-based **Random Quote Generator** that fetches inspirational and motivational quotes from the [Quotable API](https://github.com/lukePeavey/quotable). Built using **HTML**, **CSS**, and **JavaScript**, this project showcases API integration, DOM manipulation, and basic UI animations.
+A clean and minimal web-based **Random Quote Generator** that fetches inspirational and motivational quotes from the [Zenquotes API]([https://github.com/lukePeavey/quotable](https://zenquotes.io/api/random)). Built using **HTML**, **CSS**, and **JavaScript**, this project showcases API integration, DOM manipulation, and basic UI animations.
 
 ## 🔍 Features
 
