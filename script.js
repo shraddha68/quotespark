@@ -29,3 +29,5 @@ async function loadRandomQuote() {
 }
 
 loadQuoteButton.addEventListener('click', loadRandomQuote);
+
+loadRandomQuote();
