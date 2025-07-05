@@ -1,50 +1,79 @@
-# random-quote-generator
 # 🌟 Random Quote Generator
 
-A clean and minimal web-based **Random Quote Generator** that fetches inspirational and motivational quotes from the [Zenquotes API]([https://github.com/lukePeavey/quotable](https://zenquotes.io/api/random)). Built using **HTML**, **CSS**, and **JavaScript**, this project showcases API integration, DOM manipulation, and basic UI animations.
+This is a simple, lightweight, and aesthetic Random Quote Generator web app built using **HTML**, **CSS**, and **JavaScript** — no external APIs, no CORS issues, and works fully offline!
 
-## 🔍 Features
+It displays a randomly selected inspirational quote from a curated local list of 500+ quotes by famous authors.
 
-- 📜 Fetches quotes from a public API
-- 🎨 Smooth fade-in animation for quote transitions
-- 📱 Responsive design for mobile and desktop
-- 🚀 Simple, fast, and beginner-friendly
+---
 
-## 🖼️ Preview
+## 📸 Preview
 
-![Screenshot 2025-06-13 211003](https://github.com/user-attachments/assets/4038f21d-bb5c-4b67-a073-b33f6df178bf)
+![Screenshot 2025-07-05 205412](https://github.com/user-attachments/assets/d1bfb56d-7590-4f76-aa9d-a1520258ef6d)
 
-## 📦 Technologies Used
+---
 
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Quotable API
+## 🚀 Features
 
-## ⚙️ How to Use
+- 🔁 Displays a random quote on each click
+- 📝 Shows author names
+- ✨ Smooth fade-in animation
+- 🎨 Stylish background using free SVG
+- ⚡️ Works without the internet after loading once
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/random-quote-generator.git
+---
 
-2. Navigate to the project folder:
-cd random-quote-generator
+## 🛠️ Tech Stack
 
-3. Open index.html in your browser, or use a live server extension in VS Code.
+- **HTML** for structure
+- **CSS** for styling
+- **JavaScript** for logic
+- Local data from a `quotes.js` file (500 quotes)
 
-🔗 Live Demo
-Click here to view the live demo
+---
 
-📁 Project Structure
-random-quote-generator/
+## 📂 File Structure
+
+/project-folder
 │
-├── index.html        # HTML structure
-├── style.css         # CSS styling
-└── script.js         # JavaScript logic (API call, animations)
+├── index.html # Main HTML file
+├── style.css # Page styling
+├── script.js # JavaScript logic to load/display quotes
+├── quotes.js # Contains an array of 500 quotes with authors
+└── README.md # This file
 
-🙋‍♂️ Author
-Shraddha Bagade
-@shraddha68
 
-📄 License
-This project is licensed under the MIT License – feel free to use and modify it.
+---
+
+## 📦 How to Run
+
+1. **Download or clone this repository**.
+2. Click the **“Load New Quote”** button to see a new quote!
+3. Open from here 
+
+---
+
+## 🧠 How It Works
+
+- On page load, a quote is picked at random from the local `quotes.js` file.
+- Every time you click the button, a new quote is shown.
+- The quote fades in with a smooth animation.
+
+---
+
+## ✅ Why No API?
+
+> Most public quote APIs either return only one quote at a time, suffer from CORS errors, or are unreliable.  
+> This project avoids all that by using a **local JSON array** of hand-picked quotes.
+
+---
+
+## 👤 Author
+
+**Shraddha Bagade**  
+> Frontend enthusiast | Beginner developer | Exploring the web one project at a time
+
+---
+
+## 📄 License
+
+This project is free to use for learning or non-commercial purposes. Attribution appreciated but not required.
