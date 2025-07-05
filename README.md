@@ -8,7 +8,7 @@ It displays a randomly selected inspirational quote from a curated local list of
 
 ## 📸 Preview
 
-![Screenshot 2025-07-05 205412](https://github.com/user-attachments/assets/d1bfb56d-7590-4f76-aa9d-a1520258ef6d)
+![Screenshot 2025-07-05 210902](https://github.com/user-attachments/assets/638bd27a-1bd7-4956-9fb6-c145c7ee690e)
 
 ---
 
