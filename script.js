@@ -5,29 +5,17 @@ async function loadRandomQuote() {
     const quoteAuthor = document.getElementById('authorName');
     quotePara.innerText = "Loading...";
     quoteAuthor.innerText = "";
+    quotePara.classList.remove('fade-in');
+    quoteAuthor.classList.remove('fade-in');
 
-    try {
-        const proxyUrl = 'https://api.allorigins.win/get?url=' + encodeURIComponent('https://zenquotes.io/api/random');
-        const response = await fetch(proxyUrl);
-        const proxyData = await response.json();
-        const data = JSON.parse(proxyData.contents);
+    const random = quotes[Math.floor(Math.random() * quotes.length)];
+    quotePara.innerText = `"${random.text}"`;
+    quoteAuthor.innerText = `— ${random.author}`;
 
-        quotePara.classList.remove('fade-in');
-        quoteAuthor.classList.remove('fade-in');
-
-        setTimeout(() => {
-            quotePara.innerHTML = `<span class="fade-in">"${data[0].q}"</span>`;
-            quoteAuthor.innerHTML = `<span class="fade-in">— ${data[0].a}</span>`;
-
-            quotePara.classList.add('fade-in');
-            quoteAuthor.classList.add('fade-in');
-        }, 100);
-    } catch (error) {
-        console.error("Error:", error);
-        quotePara.innerText = "ERROR!!";
-    }
+    console.log(random);
+    quotePara.classList.add('fade-in');
+    quoteAuthor.classList.add('fade-in');
 }
 
 loadQuoteButton.addEventListener('click', loadRandomQuote);
-
-loadRandomQuote();
+loadRandomQuote(); // Load one quote on page load
