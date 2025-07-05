@@ -48,7 +48,7 @@ It displays a randomly selected inspirational quote from a curated local list of
 
 1. **Download or clone this repository**.
 2. Click the **“Load New Quote”** button to see a new quote!
-3. Open from here 
+3. 👉 [Click here to open the live project](https://shraddha68.github.io/random-quote-generator/)
 
 ---
 
