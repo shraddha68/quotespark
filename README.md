@@ -34,11 +34,15 @@ It displays a randomly selected inspirational quote from a curated local list of
 ## 📂 File Structure
 
 /project-folder
-│
+
 ├── index.html # Main HTML file
+
 ├── style.css # Page styling
+
 ├── script.js # JavaScript logic to load/display quotes
+
 ├── quotes.js # Contains an array of 500 quotes with authors
+
 └── README.md # This file
 
 
